@@ -1,1 +1,1 @@
-# Paradox-
+# Paradox

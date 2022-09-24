@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Paradox/static/css/main.23a76e37.css",
+    "main.js": "/Paradox/static/js/main.04128a2e.js",
+    "static/js/787.12dcb51e.chunk.js": "/Paradox/static/js/787.12dcb51e.chunk.js",
+    "static/media/captain.jpg": "/Paradox/static/media/captain.7a4c29f6deeaac1925e4.jpg",
+    "static/media/sci1.jpg": "/Paradox/static/media/sci1.5321d3ccbbc92c384e50.jpg",
+    "static/media/justice.jpg": "/Paradox/static/media/justice.de414a4026429067baa4.jpg",
+    "static/media/ant.jpg": "/Paradox/static/media/ant.b78b9b9045ec3fd102a9.jpg",
+    "static/media/bat.jpg": "/Paradox/static/media/bat.1a741ac725521aa13837.jpg",
+    "static/media/dc.jpg": "/Paradox/static/media/dc.3523a195b5aaf1894ddc.jpg",
+    "static/media/maze.jpg": "/Paradox/static/media/maze.564cd782a68ed22b5f30.jpg",
+    "static/media/civil.jpg": "/Paradox/static/media/civil.9c61d98752b783cdf0b2.jpg",
+    "static/media/super.jpg": "/Paradox/static/media/super.023e73686d2f9adca5fa.jpg",
+    "static/media/love.jpg": "/Paradox/static/media/love.66903ba62bfc28abd1af.jpg",
+    "static/media/marvel.jpg": "/Paradox/static/media/marvel.a30007de63404a5be905.jpg",
+    "static/media/adam.jpeg": "/Paradox/static/media/adam.1b34554b656fc4e6b4d2.jpeg",
+    "static/media/LOGO.png": "/Paradox/static/media/LOGO.411d007327e6f17bd596.png",
+    "static/media/1.jpg": "/Paradox/static/media/1.1ba3cac8cc4d339ad980.jpg",
+    "static/media/marv.jpeg": "/Paradox/static/media/marv.104c456fb4812c9f5c43.jpeg",
+    "static/media/maverick.jpeg": "/Paradox/static/media/maverick.62b67e24e8e87f1b5aa1.jpeg",
+    "static/media/science.jpeg": "/Paradox/static/media/science.d3ccc5e673a012089ba4.jpeg",
+    "static/media/insta.jpg": "/Paradox/static/media/insta.50a9ca5825c604312497.jpg",
+    "static/media/spider.jpeg": "/Paradox/static/media/spider.6b9e93a70ffc1ffa4212.jpeg",
+    "static/media/dcom.jpeg": "/Paradox/static/media/dcom.bf0b9ddb6374ffdc7206.jpeg",
+    "index.html": "/Paradox/index.html",
+    "main.23a76e37.css.map": "/Paradox/static/css/main.23a76e37.css.map",
+    "main.04128a2e.js.map": "/Paradox/static/js/main.04128a2e.js.map",
+    "787.12dcb51e.chunk.js.map": "/Paradox/static/js/787.12dcb51e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23a76e37.css",
+    "static/js/main.04128a2e.js"
+  ]
+}

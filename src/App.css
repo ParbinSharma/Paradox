@@ -1,0 +1,261 @@
+*{
+background-color: black;
+}
+a{
+  text-decoration: none;
+}
+.banners{
+  width:100%;
+  height: 93vh;
+}
+.label{
+  color: white;
+  font-weight: bold;
+  margin-top: 1vw;
+}
+.year{
+  color: white;
+  font-size:3vw;
+  margin-top: -1vh;
+}
+.play{
+  height:3vh;
+  width:5vw;
+}
+.cp img{
+  width: 30vw;
+  margin-top: 1vh;
+  height: 40vw;
+  border-radius: 8px;
+}
+
+.dc{
+  width: 100vw;
+  z-index: 1;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  
+     margin-top: -5vh;
+}
+button{
+  background-color: red;
+}
+.see-all{
+  background: transparent ;
+  color: #1276b9;
+  font-size: 3vw;
+  padding-left: 50vw;
+  padding-top: 1vh;
+  font-weight: bold;
+  text-decoration: none;
+}
+.franchise{
+  background: transparent;
+  
+  font-size: 3vh;
+  font-weight:bold;
+}
+.label-h{
+ position:relative;
+ top: -20vh;
+  background: transparent;
+}
+.marvel{
+  width: 100vw;
+  z-index: 1;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    margin-top: 8vh;
+}
+.marv{
+  width:100vw;
+  height: 20vh;
+}
+.background {
+  width:100vw;
+  margin-bottom: 10px;
+  
+}
+.footer{
+  height:10vh;
+
+  
+  position:sticky;
+  margin-top: -10vh;
+  background-color: black;
+  opacity:0.7;
+  justify-content: space-between;
+}
+span{
+  height: 5vh;
+  display:block;
+  margin-top:2vh;
+  border-radius:20px;
+  width: 2px;
+  background-color: white;
+}
+.Views {
+  font-size: 2vw;
+ color:white;
+ text-align: center;
+}
+.li-ft{
+
+  list-style: none;
+  color:#1276b9;
+  padding-top:3vh;
+  padding-left: 7vw;
+  padding-right:3vw;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+.navbar{
+  width: 100%;
+  height:8vh;
+  background-color:black;
+  opacity:0.7;
+ position:fixed;
+ z-index: 3;
+}
+.navbar-link{
+  display: flex;
+  flex-direction: row;
+  padding-right: 3vw;
+}
+.dave{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links{
+  list-style: none;
+  padding-left:4vw;
+  color: #1276b9;
+  font-size: 3vw;
+  text-decoration: none;
+  font-family: 'PT Serif Caption', serif;
+}
+.logo{
+  width:20vh;
+  padding-left: 2vw;
+}
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+.scroller{
+  max-width: 100vw;
+  height: 40vh;
+  padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1rem ;
+  overflow-x: auto;
+  z-index: 2;
+  margin-top: -21vh;
+  /*background: url(./components/images/marvel.jpg);*/
+}
+.scroller::-webkit-scrollbar{
+  display: none;
+}
+.scroller-item{
+  position: relative;
+  width: 40vw;
+  height: 40vh;
+ margin-top: -20px;
+  
+ 
+}
+.scroller-item img{
+  width: 40vw;
+  height: 40vh;
+  object-fit: cover;
+  
+}
+.scroller-item::before{
+  content:'';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: calc(100%+15px);
+  height: calc(100%+15px);
+  background-image: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#6902be 75%,#bc1888 100%);
+  border-radius: inherit;
+  z-index: -1;
+}
+.loader-xbox{
+  position:absolute;
+  top: calc(50%-25px);
+  left: calc(50%-25px);
+  z-index: 4;
+}
+.loader-xbox,.loader-xbox:before,.loader-xbox:after{
+  position:absolute;
+  border-radius: 3px solid transparent;
+ border-top:3px solid #1276b9;
+ border-radius: 50%;
+ animation: rotate linear infinite;
+ content:"";
+}
+.box{
+  width: 100vw;
+  height:100vh;
+  background-color: black;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-xbox{
+  height:100px;
+  width:100px;
+  animation-duration: 1.05s;
+}
+.loader-xbox:before{
+  height: 75px;
+  width: 75px;
+  top: 10px;
+  left: 10px;
+  animation-duration: 10s;
+}
+.loader-xbox:after{
+  height: 50px;
+  width: 50px;
+  top: 22px;
+  left: 22px;
+  animation-duration: 4s;
+}
+
+
+
